@@ -1,0 +1,52 @@
+body{
+  background-color:#0C2D48;
+}
+.container{
+  margin-top: 100px;
+  text-align: center;
+  background-color:#f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right:25%;
+  min-height: 30vw;
+}
+.container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.task{
+  font-size: larger;
+  font-weight: 700;
+}
+.task-name{
+  color: black;
+  margin-bottom: 10px;
+}
+input{
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+
+  background-color: aliceblue;
+}
+.todo{
+  background-color: white;
+  width: 70%;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.button-task{
+  margin-left: 20%;
+}
+.to{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+button{
+  color: white;
+  background-color: #0C2D48;
+}
